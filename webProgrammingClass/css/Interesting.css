@@ -1,0 +1,46 @@
+@keyframes swirl-in-fwd {
+    0% {
+      -webkit-transform: rotate(-540deg) scale(0);
+              transform: rotate(-540deg) scale(0);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1);
+              transform: rotate(0) scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes color-change-2x {
+    0% {
+      background: #ffffff;
+    }
+    100% {
+      background: #ffcaca;
+    }
+  }
+
+
+.main2{
+    padding-top: 270px;
+    animation: color-change-2x 5s ease-in-out  forwards;
+    color: rgb(0, 0, 0);
+    height: 75vh;
+
+}
+
+.main2 p{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+
+}
+#p1{
+    font-size: 30px;
+}
+.navbar_logo {
+    font-family: "Rubik Bubbles", cursive;
+    font-size: 25px;
+    margin-left: 30px;
+}
