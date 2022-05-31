@@ -1,0 +1,149 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunji's Website</title>
+    <link rel="stylesheet" href="/css/Home.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/46c3d0d3b1.js" crossorigin="anonymous"></script>
+    <script src="/main.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="/html/Home.html">Eunji Lee</a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="/html/Home.html">Home</a></li>
+            <li><a href="/html/skills.html">Skills</a></li>
+            <li><a href="/html/projects.html">Projects</a></li>
+            <li><a href="/html/award.html">Awards</a></li>
+            <li><a href="/html/interesting.html">Interesting</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+
+        <a href="#" class="navbar_toggleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+    <div class="main">
+        <div class="container">
+          
+        </div>
+    </div>
+
+    <div class="footer">
+        <span>
+            1st semester, Web Programming Class
+        </span>
+    </div>
+</body>
+
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="/css/Home.css">
+    <link rel="stylesheet" href="/css/skills.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/46c3d0d3b1.js" crossorigin="anonymous"></script>
+    <script src="/main.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+        charset="utf-8"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eunji's Website</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar_logo">
+            <a href="/html/Home.html">Eunji Lee</a>
+        </div>
+
+        <ul class="navbar_menu">
+            <li><a href="/html/Home.html">Home</a></li>
+            <li><a href="/html/skills.html">Skills</a></li>
+            <li><a href="/html/projects.html">Projects</a></li>
+            <li><a href="/html/award.html">Awards</a></li>
+            <li><a href="/html/interesting.html">Interesting</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+        </ul>
+
+        <a href="#" class="navbar_toggleBtn">
+            <i class="fas fa-bars"></i>
+        </a>
+    </nav>
+
+    <span id="tag">My Skills</span>
+    <div class="container">
+        <div class="box">
+            <div class="chart" data-percent="90">90%</div>
+            <h2>HTML</h2>
+        </div>
+        <div class="box">
+            <div class="chart" data-percent="52">52%</div>
+            <h2>CSS</h2>
+        </div>
+        <div class="box">
+            <div class="chart" data-percent="30">30%</div>
+            <h2>UNITY</h2>
+        </div>
+        <div class="box">
+            <div class="chart" data-percent="30">30%</div>
+            <h2>JAVA</h2>
+        </div>
+        <div class="box">
+            <div class="chart" data-percent="10">10%</div>
+            <h2>JAVASCRIPT</h2>
+        </div>
+        <div class="box">
+            <div class="chart" data-percent="70">70%</div>
+            <h2>C, PYTHON</h2>
+        </div>
+
+    </div>
+
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            $('.chart').easyPieChart({
+                size: 160,
+                barColor: "#f17979",
+                scaleLength: 0,
+                lineWidth: 15,
+                trackColor: "#525151",
+                lineCap: "circle",
+                animate: 2000,
+            });
+        });
+    </script>
+    <div class="footer">
+        <span>
+            1st semester, Web Programming Class
+        </span>
+    </div>
+
+</body>
+
+</html>
